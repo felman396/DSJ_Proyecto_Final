@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TriviaN1 : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class TriviaN1 : MonoBehaviour
         if (collision.gameObject.CompareTag("Main_character"))
         {
             Debug.Log("Colisión con Player detectada"); // Imprime en la consola
-            //SceneManager.LoadScene(nombreDeLaEscena);
+            SceneManager.LoadScene("Trivia");
         }else{
             Debug.Log("No hay");
         }
