@@ -1193,6 +1193,7 @@ MonoBehaviour:
   - {fileID: 696539947}
   - {fileID: 6430551}
   - {fileID: 199643864}
+  textoUI: {fileID: 819135434}
 --- !u!1 &779126918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1355,7 +1356,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Next
+  m_Text: Siguiente
 --- !u!222 &819135435
 CanvasRenderer:
   m_ObjectHideFlags: 0
