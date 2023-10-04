@@ -595,27 +595,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: "\xBFQuien es rosado?"
+  - Question: "\xBFQu\xE9 sistema de caminos construyeron los incas para conectar
+      su vasto imperio?"
     Answers:
-    - Pocouo
-    - Pepa
-    - Piolin
-    - Pepegrillo
-    CorrectAnswer: 2
-  - Question: "\xBFQuien es el se\xF1or de la noche?"
-    Answers:
-    - Batman
-    - Goku
-    - Garfield
-    - Donald
-    CorrectAnswer: 1
-  - Question: "\xBFQuien es?"
-    Answers:
-    - Arisaca
-    - Silva
-    - Aedo
-    - Paz
+    - Caminos de carros
+    - Caminos de caballos
+    - Caminos de agua
+    - Caminos del Inca
     CorrectAnswer: 4
+  - Question: "\xBFCu\xE1l fue la capital del Imperio Inca?"
+    Answers:
+    - Cusco
+    - Lima
+    - Arequipa
+    - Tacna
+    CorrectAnswer: 1
+  - Question: "\xBFQu\xE9 construcci\xF3n incaica es famosa por sus enormes bloques
+      de piedra encajados perfectamente sin el uso de mortero?"
+    Answers:
+    - Machu Picchu
+    - "Sacsayhuam\xE1n"
+    - Ollantaytambo
+    - Choquequirao
+    CorrectAnswer: 2
+  - Question: "\xBFCu\xE1l era la bebida ceremonial de los incas, hecha de ma\xEDz
+      fermentado?"
+    Answers:
+    - Pisco
+    - Chincha
+    - Coca
+    - Mate
+    CorrectAnswer: 2
+  - Question: "\xBFCu\xE1l era el nombre del \xFAltimo gobernante inca antes de la
+      llegada de los conquistadores espa\xF1oles?"
+    Answers:
+    - Atahualpa
+    - Huayna Capac
+    - "Pachac\xFAtec"
+    - "Manco C\xE1pac"
+    CorrectAnswer: 1
   options:
   - {fileID: 762961434}
   - {fileID: 640648439}
@@ -2193,7 +2211,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: RETRY
+  m_Text: Reintentar
 --- !u!222 &2113018066
 CanvasRenderer:
   m_ObjectHideFlags: 0
