@@ -18,7 +18,7 @@ public class StartButton : MonoBehaviour
         panelActual++;
         if (panelActual >= paneles.Length)
             //panelActual = 0;
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("Nivel01");
 
         MostrarPanel(panelActual);
     }

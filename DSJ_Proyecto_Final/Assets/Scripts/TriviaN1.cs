@@ -16,7 +16,7 @@ public class TriviaN1 : MonoBehaviour
         if (collision.gameObject.CompareTag("Main_character"))
         {
             Debug.Log("Colisión con Player detectada"); // Imprime en la consola
-            SceneManager.LoadScene("Trivia");
+            SceneManager.LoadScene("Trivia01");
         }else{
             Debug.Log("No hay");
         }

@@ -18,6 +18,7 @@ public class QuizManager : MonoBehaviour
     
     int totalQuestions = 0;
     public int score;
+	public int correctAnswers = 0;
     
     private void Start()
     {
@@ -39,20 +40,27 @@ public class QuizManager : MonoBehaviour
     }
     
     public void correct()
-    {
-    	score += 1;
-    	QnA.RemoveAt(currentQuestion);
-    	StartCoroutine(WaitForNext());
-    	//generateQuestion();
-    }
+	{
+		correctAnswers += 1;
+		score += 1;
+		QnA.RemoveAt(currentQuestion);
+		StartCoroutine(WaitForNext());
+	}
+
+	public void wrong()
+	{
+		QnA.RemoveAt(currentQuestion);
+		StartCoroutine(WaitForNext());
+		//generateQuestion();
+	}
     
-    public void wrong()
-    {
-    	QnA.RemoveAt(currentQuestion);
-    	StartCoroutine(WaitForNext());
-    	//generateQuestion();
-    }
-    
+	void CheckForSceneChange()
+	{
+		if (correctAnswers >= 4) // Cambia el número si deseas una cantidad diferente
+		{
+			SceneManager.LoadScene("Nivel02"); // Reemplaza "NuevaEscena" con el nombre de la escena a la que deseas cambiar.
+		}
+	}
     IEnumerator WaitForNext()
     {
     	yield return new WaitForSeconds(1);
@@ -87,6 +95,7 @@ public class QuizManager : MonoBehaviour
     	{
     		Debug.Log("Out of Questions");
     		GameOver();
+			CheckForSceneChange(); // Llama a la función para verificar si se debe cambiar de escena.
     	}
     	
     }
