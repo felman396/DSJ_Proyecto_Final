@@ -58,7 +58,7 @@ public class QuizManager : MonoBehaviour
 	{
 		if (correctAnswers >= 4) // Cambia el número si deseas una cantidad diferente
 		{
-			SceneManager.LoadScene("Nivel02"); // Reemplaza "NuevaEscena" con el nombre de la escena a la que deseas cambiar.
+			SceneManager.LoadScene("Minijuego"); // Reemplaza "NuevaEscena" con el nombre de la escena a la que deseas cambiar.
 		}
 	}
     IEnumerator WaitForNext()

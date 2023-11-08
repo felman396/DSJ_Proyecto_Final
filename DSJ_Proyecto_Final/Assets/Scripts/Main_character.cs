@@ -37,6 +37,14 @@ public class Main_character : MonoBehaviour
 
         rigidbody.velocity = new Vector2(inputMovement * velocity, rigidbody.velocity.y);
         ManageOrientation(inputMovement);
+
+        if(Input.GetKey(KeyCode.UpArrow)){
+            transform.position += Vector3.up * velocity * Time.deltaTime;
+        }
+        if(Input.GetKey(KeyCode.DownArrow)){
+            transform.position += Vector3.down * velocity * Time.deltaTime;
+        }
+
     }
 
     void ManageOrientation(float inputMovement)

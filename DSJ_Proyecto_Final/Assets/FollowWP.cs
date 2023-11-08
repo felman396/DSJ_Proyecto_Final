@@ -39,7 +39,7 @@ public class FollowWP : MonoBehaviour
             if (firstRun)
             {
                 firstRun = false;
-                SceneManager.LoadScene("SampleScene");
+                SceneManager.LoadScene("Nivel01");
             }
         }
 
