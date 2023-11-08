@@ -567,10 +567,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Cada uno de \u201Clos tres socios de la conquista\u201D ten\xEDa una tarea
-    principal. Francisco Pizarro era el l\xEDder de la expedici\xF3n; Diego de Almagro
-    se encargaba de los recursos militares; y Hernando de Luque era quien financiaba
-    o aportaba dinero para la expedici\xF3n hacia el imperio incaico."
+  m_text: "En la etapa colonial del Per\xFA, se realizaban trabajos forzados por
+    parte de los espa\xF1oles hacia los esclavos que por lo general eran ind\xEDgenas,
+    esto bajo el sistema de las encomiendas. Adem\xE1s existi\xF3 un sistema social
+    de clasificaci\xF3n racial llamado sistema de castas."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

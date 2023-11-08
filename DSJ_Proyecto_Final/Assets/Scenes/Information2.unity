@@ -523,11 +523,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Despu\xE9s de que Pizarro realizara tres viajes en su expedici\xF3n, pudo
-    llegar a Cajamarca en donde se captur\xF3 al inca Atahualpa, quien fue llevado
-    como prisionero. Sin embargo, para obtener su libertad, el inca ofreci\xF3 una
-    sala llena con diversos objetos de oro, y dos veces la misma sala con objetos
-    de plata."
+  m_text: "Despu\xE9s de muchos a\xF1os de virreinato en el Per\xFA y de varias batallas
+    por la liberaci\xF3n, finalmente en el a\xF1o 1821 se proclam\xF3 la independencia
+    del Per\xFA, la cual fue proclamada por el argentino don Jos\xE9 de San Mart\xEDn,
+    quien ya hab\xEDa independizado a Argentina y Chile."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

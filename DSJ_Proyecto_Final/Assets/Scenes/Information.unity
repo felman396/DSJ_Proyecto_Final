@@ -523,11 +523,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Despu\xE9s de la llegada de los espa\xF1oles a Am\xE9rica, a\xF1os despu\xE9s
-    se firm\xF3 en 1526 el pacto de Panam\xE1, donde se designaron a los principales
-    encargados de imponer el dominio del imperio inca, ellos fueron Francisco Pizarro,
-    Diego de Almagro y Hernando de Luque, tambi\xE9n conocidos como \u201Clos tres
-    socios de la conquista\u201D."
+  m_text: "Despu\xE9s de que los espa\xF1oles conquistaron el imperio incaico, se
+    estableci\xF3 el virreinato del Per\xFA, teniendo como capital la ciudad de Lima,
+    la cual fue fundada por los espa\xF1oles al igual que otras ciudades."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -511,10 +511,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A pesar de haberse pagado el rescate, el inca fue hallado culpable de
-    varias acusaciones como idolatr\xEDa, poligamia, entre otras; y despu\xE9s de
-    ser bautizado fue condenado y muri\xF3 en la horca. Comenzando de esa manera
-    la marcha de los espa\xF1oles al Cusco."
+  m_text: "A pesar de haber sido proclamada la independencia en 1821, los espa\xF1oles
+    a\xFAn segu\xEDan en territorio peruano; sin embargo en 1824 se llev\xF3 a cabo
+    la batalla de Ayacucho, con lo que significar\xEDa el fin del dominio espa\xF1ol
+    en el Per\xFA."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
