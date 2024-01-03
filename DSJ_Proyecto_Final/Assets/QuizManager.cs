@@ -56,7 +56,10 @@ public class QuizManager : MonoBehaviour
     
 	void CheckForSceneChange()
 	{
-		if (score >= 8) // Cambia el número si deseas una cantidad diferente
+		if (score >= 10) // Cambia el número si deseas una cantidad diferente
+		{
+			SceneManager.LoadScene("EndGame"); // Reemplaza "NuevaEscena" con el nombre de la escena a la que deseas cambiar.
+		}else if (score >= 8) // Cambia el número si deseas una cantidad diferente
 		{
 			SceneManager.LoadScene("Minijuego2"); // Reemplaza "NuevaEscena" con el nombre de la escena a la que deseas cambiar.
 		}else if (score >= 4) // Cambia el número si deseas una cantidad diferente

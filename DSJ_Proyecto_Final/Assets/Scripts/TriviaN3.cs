@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class InforN2 : MonoBehaviour
+public class TriviaN3 : MonoBehaviour
 {
     public string nombreDeLaEscena; // Nombre de la escena a la que quieres cambiar
 
@@ -16,7 +16,7 @@ public class InforN2 : MonoBehaviour
         if (collision.gameObject.CompareTag("Main_character"))
         {
             Debug.Log("Colisión con Player detectada"); // Imprime en la consola
-            SceneManager.LoadScene("Information4");
+            SceneManager.LoadScene("Trivia03");
         }else{
             Debug.Log("No hay");
         }

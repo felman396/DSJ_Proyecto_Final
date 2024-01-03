@@ -262,7 +262,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 13.3680935, y: 76.60142}
-  m_SizeDelta: {x: 720, y: 250}
+  m_SizeDelta: {x: 735.8804, y: 251.6828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &839615179
 MonoBehaviour:
@@ -425,7 +425,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Information1
+          m_StringArgument: Information6
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &905439759
@@ -501,7 +501,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 6.2556, y: 4.6916}
-  m_SizeDelta: {x: 630, y: 222.028}
+  m_SizeDelta: {x: 641.0171, y: 222.028}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &920909529
 MonoBehaviour:
@@ -523,9 +523,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Despu\xE9s de que los espa\xF1oles conquistaron el imperio incaico, se
-    estableci\xF3 el virreinato del Per\xFA, teniendo como capital la ciudad de Lima,
-    la cual fue fundada por los espa\xF1oles al igual que otras ciudades."
+  m_text: "El Himno Nacional del Per\xFA fue escrito por Jos\xE9 de la Torre Ugarte,
+    y fue creado para un concurso que convoc\xF3 San Mart\xEDn d\xEDas despu\xE9s
+    de la Proclamaci\xF3n de la independencia.\r\nLa primera versi\xF3n de la bandera
+    fue creada por Jos\xE9 de San Mart\xEDn, luego Jos\xE9 Bernardo Torre Tagle fue
+    quien dise\xF1\xF3 la segunda y tercera versi\xF3n.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

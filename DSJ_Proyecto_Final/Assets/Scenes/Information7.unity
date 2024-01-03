@@ -262,7 +262,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 13.3680935, y: 76.60142}
-  m_SizeDelta: {x: 720, y: 250}
+  m_SizeDelta: {x: 735.8804, y: 251.6828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &839615179
 MonoBehaviour:
@@ -416,7 +416,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1436097651}
+      - m_Target: {fileID: 1441324831}
         m_TargetAssemblyTypeName: Informations, Assembly-CSharp
         m_MethodName: cambiarEscena
         m_Mode: 5
@@ -425,7 +425,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Information1
+          m_StringArgument: Nivel03
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &905439759
@@ -501,7 +501,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 6.2556, y: 4.6916}
-  m_SizeDelta: {x: 630, y: 222.028}
+  m_SizeDelta: {x: 641.0171, y: 222.028}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &920909529
 MonoBehaviour:
@@ -523,9 +523,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Despu\xE9s de que los espa\xF1oles conquistaron el imperio incaico, se
-    estableci\xF3 el virreinato del Per\xFA, teniendo como capital la ciudad de Lima,
-    la cual fue fundada por los espa\xF1oles al igual que otras ciudades."
+  m_text: "Una de las etapas que m\xE1s se destacan en la historia del Per\xFA fue
+    la denominada Guerra del Pac\xEDfico, en la que Chile declaraba la guerra a Bolivia
+    y Per\xFA, siendo el enfrentamiento principal con este \xFAltimo; principalmente
+    para obtener los yacimientos de guano y salitre."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -727,7 +728,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Siguiente
+  m_text: 'Okey
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -896,7 +899,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1436097650
+--- !u!1 &1441324830
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -904,8 +907,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1436097652}
-  - component: {fileID: 1436097651}
+  - component: {fileID: 1441324832}
+  - component: {fileID: 1441324831}
   m_Layer: 0
   m_Name: Controlador
   m_TagString: Untagged
@@ -913,25 +916,56 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1436097651
+--- !u!114 &1441324831
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1436097650}
+  m_GameObject: {fileID: 1441324830}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10822a8e36d0d7f4fb37688544c40b84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1436097652
+--- !u!4 &1441324832
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1436097650}
+  m_GameObject: {fileID: 1441324830}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.7087812, y: -0.82043993, z: 2.936579}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1784990089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1784990090}
+  m_Layer: 0
+  m_Name: InforManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1784990090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784990089}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 279.33658, y: 227.2747, z: -0.6839812}
@@ -1024,4 +1058,5 @@ SceneRoots:
   - {fileID: 1378675065}
   - {fileID: 759326488}
   - {fileID: 1190866039}
-  - {fileID: 1436097652}
+  - {fileID: 1784990090}
+  - {fileID: 1441324832}

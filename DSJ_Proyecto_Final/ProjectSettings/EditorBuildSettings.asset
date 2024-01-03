@@ -53,4 +53,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minijuego2.unity
     guid: 541db17a950dca54a86e65e9b813c56e
+  - enabled: 1
+    path: Assets/Scenes/Trivia03.unity
+    guid: df0f58d163179084c96dc44793cb0dca
+  - enabled: 0
+    path: Assets/Scenes/Intro2.unity
+    guid: 3bb65289aeb125a4192c2493a4a88ad1
+  - enabled: 1
+    path: Assets/Scenes/Information4.unity
+    guid: eb975b17eb8206843ad7a174ba212b93
+  - enabled: 1
+    path: Assets/Scenes/Information5.unity
+    guid: b607b84dc58a21e45a400d83ca056f37
+  - enabled: 1
+    path: Assets/Scenes/Information6.unity
+    guid: 63a83bdf24553fb43818058544ff73a8
+  - enabled: 1
+    path: Assets/Scenes/Information7.unity
+    guid: af3440e57ea56cc4787dbec1e89f61e0
+  - enabled: 1
+    path: Assets/Scenes/EndGame.unity
+    guid: c897daa767019ad4f89518cabf3cf609
   m_configObjects: {}

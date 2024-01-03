@@ -1505,7 +1505,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1343733404}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f73bdee68da86d74f9b521b326065cc7, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d1e0435387a8364494433f997f05c84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nombreDeLaEscena: 
