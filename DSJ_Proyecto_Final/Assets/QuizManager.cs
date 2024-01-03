@@ -17,7 +17,7 @@ public class QuizManager : MonoBehaviour
     public Text ScoreTxt;
     
     int totalQuestions = 0;
-    public int score;
+    public static int score = 0;
 	public int correctAnswers = 0;
     
     private void Start()
@@ -56,7 +56,10 @@ public class QuizManager : MonoBehaviour
     
 	void CheckForSceneChange()
 	{
-		if (correctAnswers >= 4) // Cambia el número si deseas una cantidad diferente
+		if (score >= 8) // Cambia el número si deseas una cantidad diferente
+		{
+			SceneManager.LoadScene("Minijuego2"); // Reemplaza "NuevaEscena" con el nombre de la escena a la que deseas cambiar.
+		}else if (score >= 4) // Cambia el número si deseas una cantidad diferente
 		{
 			SceneManager.LoadScene("Minijuego"); // Reemplaza "NuevaEscena" con el nombre de la escena a la que deseas cambiar.
 		}

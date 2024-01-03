@@ -47,4 +47,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Information3.unity
     guid: 3dbf724d47c54f546818895a81473c22
+  - enabled: 1
+    path: Assets/Scenes/Nivel03.unity
+    guid: 038b820e0281c254da60a122b88e6c70
+  - enabled: 1
+    path: Assets/Scenes/Minijuego2.unity
+    guid: 541db17a950dca54a86e65e9b813c56e
   m_configObjects: {}
