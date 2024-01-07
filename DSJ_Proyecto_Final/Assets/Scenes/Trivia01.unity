@@ -622,7 +622,7 @@ MonoBehaviour:
       fermentado?"
     Answers:
     - Pisco
-    - Chincha
+    - Chicha
     - Coca
     - Mate
     CorrectAnswer: 2
@@ -644,7 +644,7 @@ MonoBehaviour:
   GoPanel: {fileID: 371889815}
   QuestionTxt: {fileID: 1793293101}
   ScoreTxt: {fileID: 1169780368}
-  score: 0
+  correctAnswers: 0
 --- !u!4 &609267438
 Transform:
   m_ObjectHideFlags: 0
