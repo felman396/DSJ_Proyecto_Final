@@ -602,7 +602,7 @@ MonoBehaviour:
     - ' Encomienda'
     - Sistema de Castas
     - Corregimientos
-    CorrectAnswer: 3
+    CorrectAnswer: 2
   - Question: "\xBFQui\xE9n lider\xF3 la independencia del Per\xFA proclamando su
       independencia en 1821?"
     Answers:
@@ -645,7 +645,8 @@ MonoBehaviour:
   GoPanel: {fileID: 371889815}
   QuestionTxt: {fileID: 1793293101}
   ScoreTxt: {fileID: 1169780368}
-  score: 0
+  correctAnswers: 0
+  currentScene: 
 --- !u!4 &609267438
 Transform:
   m_ObjectHideFlags: 0

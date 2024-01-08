@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: fbdba1eca2fd96cacb45dfdbc8d027ba
+  - enabled: 1
     path: Assets/Scenes/Nivel01.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Trivia01.unity
     guid: 9f16a9221f24fe983ade647f25ac75a8
-  - enabled: 1
-    path: Assets/Scenes/Intro.unity
-    guid: fbdba1eca2fd96cacb45dfdbc8d027ba
   - enabled: 1
     path: Assets/Scenes/MensajeAceptacion01.unity
     guid: 710a4705dedd78c43b600cac5762dc78
@@ -24,17 +24,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MiniTrajectory.unity
     guid: c10f0a70b01f7b54a8a108923bf995e3
   - enabled: 1
-    path: Assets/Scenes/Nivel02.unity
-    guid: 1273ba5a71449ff4484cab22d32dd009
-  - enabled: 1
-    path: Assets/Scenes/MensajeAceptacion02.unity
-    guid: c44de3640a7a2724a9ae34d5ecbc2139
-  - enabled: 1
-    path: Assets/Scenes/Trivia02.unity
-    guid: e96025839c8b8254593c0488b6368690
-  - enabled: 1
     path: Assets/Scenes/Minijuego.unity
     guid: ec052e7b98425e7419933c851c44d87f
+  - enabled: 1
+    path: Assets/Scenes/Nivel02.unity
+    guid: 1273ba5a71449ff4484cab22d32dd009
   - enabled: 1
     path: Assets/Scenes/Information.unity
     guid: c123dcc222645394385eb8dde8ba5c18
@@ -48,14 +42,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Information3.unity
     guid: 3dbf724d47c54f546818895a81473c22
   - enabled: 1
-    path: Assets/Scenes/Nivel03.unity
-    guid: 038b820e0281c254da60a122b88e6c70
+    path: Assets/Scenes/MensajeAceptacion02.unity
+    guid: c44de3640a7a2724a9ae34d5ecbc2139
   - enabled: 1
-    path: Assets/Scenes/Minijuego2.unity
-    guid: 541db17a950dca54a86e65e9b813c56e
-  - enabled: 1
-    path: Assets/Scenes/Trivia03.unity
-    guid: df0f58d163179084c96dc44793cb0dca
+    path: Assets/Scenes/Trivia02.unity
+    guid: e96025839c8b8254593c0488b6368690
   - enabled: 1
     path: Assets/Scenes/Information4.unity
     guid: eb975b17eb8206843ad7a174ba212b93
@@ -68,6 +59,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Information7.unity
     guid: af3440e57ea56cc4787dbec1e89f61e0
+  - enabled: 1
+    path: Assets/Scenes/Nivel03.unity
+    guid: 038b820e0281c254da60a122b88e6c70
+  - enabled: 1
+    path: Assets/Scenes/Trivia03.unity
+    guid: df0f58d163179084c96dc44793cb0dca
   - enabled: 1
     path: Assets/Scenes/EndGame.unity
     guid: c897daa767019ad4f89518cabf3cf609

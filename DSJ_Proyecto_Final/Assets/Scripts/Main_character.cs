@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Main_character : MonoBehaviour
 {
@@ -9,10 +10,13 @@ public class Main_character : MonoBehaviour
     private bool lookingRight = true;
     private Animator animator;
 
+    public string currentScene;
+
     private void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        currentScene = SceneManager.GetActiveScene().name;
     }
 
     // Update is called once per frame
@@ -43,6 +47,9 @@ public class Main_character : MonoBehaviour
         }
         if(Input.GetKey(KeyCode.DownArrow)){
             transform.position += Vector3.down * velocity * Time.deltaTime;
+        }
+        if(Input.GetKey(KeyCode.Space)){
+            SceneManager.LoadScene(currentScene);
         }
 
     }

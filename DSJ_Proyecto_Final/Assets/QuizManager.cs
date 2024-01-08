@@ -19,12 +19,15 @@ public class QuizManager : MonoBehaviour
     int totalQuestions = 0;
     public static int score = 0;
 	public int correctAnswers = 0;
+
+	public string currentScene;
     
     private void Start()
     {
     	totalQuestions = QnA.Count;
     	GoPanel.SetActive(false);
     	generateQuestion();
+		currentScene = SceneManager.GetActiveScene().name; //se recupera el nombre de la escena actual
     }
     
     public void retry()
@@ -56,6 +59,14 @@ public class QuizManager : MonoBehaviour
     
 	void CheckForSceneChange()
 	{
+		if(currentScene == "Trivia01"){
+			SceneManager.LoadScene("Minijuego"); // Reemplaza "NuevaEscena" con el nombre de la escena a la que deseas cambiar.
+		}else if(currentScene == "Trivia02"){
+			SceneManager.LoadScene("Nivel03"); // Reemplaza "NuevaEscena" con el nombre de la escena a la que deseas cambiar.
+		}else if(currentScene == "Trivia03"){
+			SceneManager.LoadScene("EndGame"); // Reemplaza "NuevaEscena" con el nombre de la escena a la que deseas cambiar.
+		}
+		/*
 		if (score >= 10) // Cambia el número si deseas una cantidad diferente
 		{
 			SceneManager.LoadScene("EndGame"); // Reemplaza "NuevaEscena" con el nombre de la escena a la que deseas cambiar.
@@ -65,7 +76,7 @@ public class QuizManager : MonoBehaviour
 		}else if (score >= 4) // Cambia el número si deseas una cantidad diferente
 		{
 			SceneManager.LoadScene("Minijuego"); // Reemplaza "NuevaEscena" con el nombre de la escena a la que deseas cambiar.
-		}
+		}*/
 	}
     IEnumerator WaitForNext()
     {
